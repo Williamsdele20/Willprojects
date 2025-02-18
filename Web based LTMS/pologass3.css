@@ -1,0 +1,67 @@
+
+input {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  height: 10px;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background-image: url("pexels-fwstudio-129731.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.big-box {
+  border: solid black;
+  border: none;
+  width: 950px;
+  height: 590px;
+  margin-left: 220px;
+  margin-right: 400px;
+  margin-top: 20px;
+  
+}
+.box1 {
+  border: 2px solid #000;
+
+  font-family: cursive;
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 250px;
+  text-align: center;
+  background-image: url("pexels-juan-pablo-serrano-arenas-1242348.jpg");
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+
+
+}
+.box2 {
+  z-index: 2;
+  border: 2px solid #000;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: burlywood;
+}
+  
+.login {
+  height: 30px;
+  width: 50px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 50px;
+}
+
+
+
+
+ 
